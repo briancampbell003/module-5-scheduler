@@ -18,6 +18,10 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
       rel="stylesheet"
     />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/dayjs@1.8.21/dayjs.min.js"></script>
+
     <link rel="stylesheet" href="style.css" />
     <title>Work Day Scheduler</title>
   </head>
@@ -28,11 +32,169 @@
       <p class="lead">A simple calendar app for scheduling your work day</p>
       <p id="currentDay" class="lead"></p>
     </header>
-    <div class="container">
-      <!-- Timeblocks go here -->
+    
+    <div class="container-fluid m-3">
+
+      <div class="row align-items-center" id="8am-row">
+
+        <div class="col-2 hour py-3">
+          <h5>8 AM</h5>
+        </div>
+        <div class="col-8">
+          <form>
+            <textarea class="form-control" id="8am-block" rows="2"></textarea>
+          </form>
+        </div>
+        <div class="col-2">
+          <button class="saveBtn">Save</button>
+        </div>
+      </div>
+      
+      <div class="row align-items-center" id="9am-row">
+
+        <div class="col-2 hour py-3">
+          <h5>9 AM</h5>
+        </div>
+        <div class="col-8">
+          <form>
+            <textarea class="form-control" id="9am-block" rows="2"></textarea>
+          </form>
+        </div>
+        <div class="col-2">
+          <button class="saveBtn">Save</button>
+        </div>
+      </div>
+
+      <div class="row align-items-center" id="10am-row">
+        <div class="col-2 hour py-3">
+          <h5>10 AM</h5>
+        </div>
+        <div class="col-8">
+          <form>
+            <textarea class="form-control" id="10am-block" rows="2"></textarea>
+          </form>
+        </div>
+        <div class="col-2">
+          <button class="saveBtn">Save</button>
+        </div>
+      </div>
+
+      <div class="row align-items-center" id="11am-row">
+
+        <div class="col-2 hour py-3">
+          <h5>11 AM</h5>
+        </div>
+        <div class="col-8">
+          <form>
+            <textarea class="form-control" id="11am-block" rows="2"></textarea>
+          </form>
+        </div>
+        <div class="col-2">
+          <button class="saveBtn">Save</button>
+        </div>
+      </div>
+
+      <div class="row align-items-center" id="12pm-row">
+        <div class="col-2 hour py-3">
+          <h5>12 PM</h5>
+        </div>
+        <div class="col-8">
+          <form>
+            <textarea class="form-control" id="12pm-block" rows="2"></textarea>
+          </form>
+        </div>
+        <div class="col-2">
+          <button class="saveBtn">Save</button>
+        </div>
+      </div>
+
+      <div class="row align-items-center" id="1pm-row">
+
+        <div class="col-2 hour py-3">
+          <h5>1 PM</h5>
+        </div>
+        <div class="col-8">
+          <form>
+            <textarea class="form-control" id="1pm-block" rows="2"></textarea>
+          </form>
+        </div>
+        <div class="col-2">
+          <button class="saveBtn">Save</button>
+        </div>
+      </div>
+
+      <div class="row align-items-center" id="2pm-row">
+        <div class="col-2 hour py-3">
+          <h5>2 PM</h5>
+        </div>
+        <div class="col-8">
+          <form>
+            <textarea class="form-control" id="2pm-block" rows="2"></textarea>
+          </form>
+        </div>
+        <div class="col-2">
+          <button class="saveBtn">Save</button>
+        </div>
+      </div>
+
+      <div class="row align-items-center" id="3pm-row">
+        <div class="col-2 hour py-3">
+          <h5>3 PM</h5>
+        </div>
+        <div class="col-8">
+          <form>
+            <textarea class="form-control" id="3pm-block" rows="2"></textarea>
+          </form>
+        </div>
+        <div class="col-2">
+          <button class="saveBtn">Save</button>
+        </div>
+      </div>
+
+      <div class="row align-items-center" id="4pm-row">
+        <div class="col-2 hour py-3">
+          <h5>4 PM</h5>
+        </div>
+        <div class="col-8">
+          <form>
+            <textarea class="form-control" id="4pm-block" rows="2"></textarea>
+          </form>
+        </div>
+        <div class="col-2">
+          <button class="saveBtn">Save</button>
+        </div>
+      </div>
+
+      <div class="row align-items-center" id="5pm-row">
+        <div class="col-2 hour py-3">
+          <h5>5 PM</h5>
+        </div>
+        <div class="col-8">
+          <form>
+            <textarea class="form-control" id="5pm-block" rows="2"></textarea>
+          </form>
+        </div>
+        <div class="col-2">
+          <button class="saveBtn">Save</button>
+        </div>
+      </div>
+
+      <div class="row align-items-center" id="6pm-row">
+        <div class="col-2 hour py-3">
+          <h5>6 PM</h5>
+        </div>
+        <div class="col-8">
+          <form>
+            <textarea class="form-control" id="6pm-block" rows="2"></textarea>
+          </form>
+        </div>
+        <div class="col-2">
+          <button class="saveBtn">Save</button>
+        </div>
+      </div>
+        
     </div>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="./script.js"></script>
   </body>
 </html>
