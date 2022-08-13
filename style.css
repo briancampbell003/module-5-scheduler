@@ -1,3 +1,9 @@
+.bg-lightGreen{
+  background-color: #c5ffc5;
+}
+.bg-lightRed{
+  background-color: #ffb5b1;
+}
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
@@ -31,7 +37,6 @@ textarea {
 }
 
 .row {
-  /* white-space: pre-wrap; */
   height: 65px;
   border-top: 1px solid white;
 }
