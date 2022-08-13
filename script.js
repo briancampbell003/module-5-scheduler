@@ -37,87 +37,87 @@ let hour = dayjs().hour();
 if (hour > 8) {
     $("#8am-block").addClass("bg-light");
 } else if (hour < 8) {
-    $("#8am-block").addClass("bg-success");
+    $("#8am-block").addClass("bg-lightGreen");
 } else {
-    $("#8am-block").addClass("bg-danger");
+    $("#8am-block").addClass("bg-lightRed");
 }
 
 if (hour > 9) {
     $("#9am-block").addClass("bg-light");
 } else if (hour < 9) {
-    $("#9am-block").addClass("bg-success");
+    $("#9am-block").addClass("bg-lightGreen");
 } else {
-    $("#9am-block").addClass("bg-danger");
+    $("#9am-block").addClass("bg-lightRed");
 }
 
 if (hour > 10) {
     $("#10am-block").addClass("bg-light");
 } else if (hour < 10) {
-    $("#10am-block").addClass("bg-success");
+    $("#10am-block").addClass("bg-lightGreen");
 } else {
-    $("#10am-block").addClass("bg-danger");
+    $("#10am-block").addClass("bg-lightRed");
 }
 
 if (hour > 11) {
     $("#11am-block").addClass("bg-light");
 } else if (hour < 11) {
-    $("#11am-block").addClass("bg-success");
+    $("#11am-block").addClass("bg-lightGreen");
 } else {
-    $("#11am-block").addClass("bg-danger");
+    $("#11am-block").addClass("bg-lightRed");
 }
 
 if (hour > 12) {
     $("#12pm-block").addClass("bg-light");
 } else if (hour < 12) {
-    $("#12pm-block").addClass("bg-success");
+    $("#12pm-block").addClass("bg-lightGreen");
 } else {
-    $("#12pm-block").addClass("bg-danger");
+    $("#12pm-block").addClass("bg-lightRed");
 }
 
 if (hour > 13) {
     $("#1pm-block").addClass("bg-light");
 } else if (hour < 13) {
-    $("#1pm-block").addClass("bg-success");
+    $("#1pm-block").addClass("bg-lightGreen");
 } else {
-    $("#1pm-block").addClass("bg-danger");
+    $("#1pm-block").addClass("bg-lightRed");
 }
 
 if (hour > 14) {
     $("#2pm-block").addClass("bg-light");
 } else if (hour < 14) {
-    $("#2pm-block").addClass("bg-success");
+    $("#2pm-block").addClass("bg-lightGreen");
 } else {
-    $("#2pm-block").addClass("bg-danger");
+    $("#2pm-block").addClass("bg-lightRed");
 }
 
 if (hour > 15) {
     $("#3pm-block").addClass("bg-light");
 } else if (hour < 15) {
-    $("#3pm-block").addClass("bg-success");
+    $("#3pm-block").addClass("bg-lightGreen");
 } else {
-    $("#3pm-block").addClass("bg-danger");
+    $("#3pm-block").addClass("bg-lightRed");
 }
 
 if (hour > 16) {
     $("#4pm-block").addClass("bg-light");
 } else if (hour < 16) {
-    $("#4pm-block").addClass("bg-success");
+    $("#4pm-block").addClass("bg-lightGreen");
 } else {
-    $("#4pm-block").addClass("bg-danger");
+    $("#4pm-block").addClass("bg-lightRed");
 }
 
 if (hour > 17) {
     $("#5pm-block").addClass("bg-light");
 } else if (hour < 17) {
-    $("#5pm-block").addClass("bg-success");
+    $("#5pm-block").addClass("bg-lightGreen");
 } else {
-    $("#5pm-block").addClass("bg-danger");
+    $("#5pm-block").addClass("bg-lightRed");
 }
 
 if (hour > 18) {
     $("#6pm-block").addClass("bg-light");
 } else if (hour < 18) {
-    $("#6pm-block").addClass("bg-success");
+    $("#6pm-block").addClass("bg-lightGreen");
 } else {
-    $("#6pm-block").addClass("bg-danger");
+    $("#6pm-block").addClass("bg-lightRed");
 }

@@ -1,8 +1,9 @@
+/* Override css colors for greater legibility */
 .bg-lightGreen{
-  background-color: #c5ffc5;
+  background-color: #c5ffc5!important;
 }
 .bg-lightRed{
-  background-color: #ffb5b1;
+  background-color: #ffb5b1!important;
 }
 body {
   font-family: 'Open Sans', sans-serif;
